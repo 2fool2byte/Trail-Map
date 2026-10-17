@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sign in to the Northstar banking demo.">
+    <title>Log in | Northstar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body class="login-page">
+    <header class="site-header login-header"><a class="brand" href="/"><span class="brand-mark">N</span>NORTHSTAR</a><a class="text-link" href="/">← Back to home</a></header>
+    <main class="login-main">
+      <section class="login-card">
+        <p class="eyebrow">WELCOME BACK</p>
+        <h1>Good to see you.</h1>
+        <p class="login-intro">Sign in to your Northstar online banking.</p>
+        <div class="demo-notice"><span>i</span><p>This is a design demo. Please don’t enter real account details.</p></div>
+        <form action="/login" method="post">
+          <label for="email">Email address</label>
+          <input id="email" name="email" type="email" autocomplete="username" placeholder="you@example.com" required>
+          <label for="password">Password</label>
+          <input id="password" name="password" type="password" autocomplete="current-password" placeholder="Enter your password" required>
+          <button class="button button-primary login-submit" type="submit">Log in <span aria-hidden="true">→</span></button>
+        </form>
+        <p class="login-footnote">New to Northstar? <a href="/">Explore our banking</a></p>
+      </section>
+    </main>
+    <footer class="login-footer"><span>Secure banking, with you in mind.</span><span>Demo experience · No account data is stored</span></footer>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "main": "server.js",
+  "scripts": {
+    "start": "node service.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
