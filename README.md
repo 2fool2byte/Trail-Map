@@ -4,12 +4,6 @@
 
 Middleware agentic model acts as a HTTP request classifier between the frontend and backend ensuring no HTTP log susicious or not goes unmissed. 
 
-## LAN (Wifi_LAN)
-
-Three-laptop overlay for URI guest Wi-Fi (client isolation). Unzip `LAN/wifi-lan-handoff.zip` or clone this repo and use the `LAN/` folder.
-
-Teammates: open `LAN/START_HERE.txt` — `npm install`, lead runs `npm run relay`, others `npm run join`.
-
 ## Project Structure
 /Example1
 ```
