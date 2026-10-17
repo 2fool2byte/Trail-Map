@@ -1,0 +1,137 @@
+[
+  {
+    "title": "[EPIC E1] Scaffold & protocol",
+    "body": "Node/TS repo, CLI entry, shared wire types. See docs/backlog.md",
+    "labels": ["epic"]
+  },
+  {
+    "title": "[EPIC E2] Relay room",
+    "body": "WebSocket relay, room code, 3-peer cap, overlay IPs. See docs/backlog.md",
+    "labels": ["epic"]
+  },
+  {
+    "title": "[EPIC E3] Client session",
+    "body": "Join, status lights, reconnect, interactive commands. See docs/backlog.md",
+    "labels": ["epic"]
+  },
+  {
+    "title": "[EPIC E4] Overlay ping & messages",
+    "body": "Ping/pong RTT, say broadcast. See docs/backlog.md",
+    "labels": ["epic"]
+  },
+  {
+    "title": "[EPIC E5] File exchange",
+    "body": "Send/receive builds with sha256 into incoming/. See docs/backlog.md",
+    "labels": ["epic"]
+  },
+  {
+    "title": "[EPIC E6] Docs & packaging",
+    "body": "README, SETUP (guest isolation + hotspot), teammate zip path. See docs/backlog.md",
+    "labels": ["epic"]
+  },
+  {
+    "title": "[EPIC E7] Hardening",
+    "body": "Auto-reconnect polish, HTML status page, firewall helper. Sprint 2. See docs/backlog.md",
+    "labels": ["epic"]
+  },
+  {
+    "title": "[EPIC E8] Real overlay IPs",
+    "body": "Optional TUN/WinTUN (admin), >3 peers. Sprint 3 / v2. See docs/backlog.md",
+    "labels": ["epic"]
+  },
+  {
+    "title": "[WL-001] Scaffold Node + TypeScript + npm scripts",
+    "body": "Sprint 1 | Epic E1",
+    "labels": ["sprint-1"]
+  },
+  {
+    "title": "[WL-002] Shared protocol types and JSON codec",
+    "body": "Sprint 1 | Epic E1",
+    "labels": ["sprint-1"]
+  },
+  {
+    "title": "[WL-003] Relay: HTTP/WS server, room code, bind URL print",
+    "body": "Sprint 1 | Epic E2",
+    "labels": ["sprint-1"]
+  },
+  {
+    "title": "[WL-004] Relay: 3-peer join, overlay IPs, reject 4th",
+    "body": "Sprint 1 | Epic E2",
+    "labels": ["sprint-1"]
+  },
+  {
+    "title": "[WL-005] Client join + peer-list + status table",
+    "body": "Sprint 1 | Epic E3",
+    "labels": ["sprint-1"]
+  },
+  {
+    "title": "[WL-006] Overlay ping and say",
+    "body": "Sprint 1 | Epic E4",
+    "labels": ["sprint-1"]
+  },
+  {
+    "title": "[WL-007] File send/receive with sha256",
+    "body": "Sprint 1 | Epic E5",
+    "labels": ["sprint-1"]
+  },
+  {
+    "title": "[WL-008] Room + protocol unit tests",
+    "body": "Sprint 1 | Epic E1",
+    "labels": ["sprint-1"]
+  },
+  {
+    "title": "[WL-009] README for judges/demo",
+    "body": "Sprint 1 | Epic E6",
+    "labels": ["sprint-1"]
+  },
+  {
+    "title": "[WL-010] SETUP.md isolation + hotspot fallback",
+    "body": "Sprint 1 | Epic E6",
+    "labels": ["sprint-1"]
+  },
+  {
+    "title": "[WL-011] CLI help and Incoming folder default",
+    "body": "Sprint 1 | Epic E3",
+    "labels": ["sprint-1"]
+  },
+  {
+    "title": "[WL-012] Heartbeat degraded/isolated lights",
+    "body": "Sprint 2 | Epic E3",
+    "labels": ["sprint-2"]
+  },
+  {
+    "title": "[WL-013] Auto-reconnect with backoff",
+    "body": "Sprint 2 | Epic E3",
+    "labels": ["sprint-2"]
+  },
+  {
+    "title": "[WL-014] File chunking for >32 MB builds",
+    "body": "Sprint 2 | Epic E5",
+    "labels": ["sprint-2"]
+  },
+  {
+    "title": "[WL-015] Optional local status HTML page on relay",
+    "body": "Sprint 2 | Epic E7",
+    "labels": ["sprint-2"]
+  },
+  {
+    "title": "[WL-016] Windows firewall / bind-address warnings",
+    "body": "Sprint 2 | Epic E7",
+    "labels": ["sprint-2"]
+  },
+  {
+    "title": "[WL-017] Zip packaging script for USB handoff",
+    "body": "Sprint 2 | Epic E6",
+    "labels": ["sprint-2"]
+  },
+  {
+    "title": "[WL-018] Optional TUN overlay (admin, documented)",
+    "body": "Sprint 3 | Epic E8",
+    "labels": ["sprint-3"]
+  },
+  {
+    "title": "[WL-019] Raise cap above 3 peers",
+    "body": "Sprint 3 | Epic E8",
+    "labels": ["sprint-3"]
+  }
+]
