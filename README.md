@@ -1,1 +1,1 @@
-# hackathonOctober
+# URI Hackathon Rapid-Build
