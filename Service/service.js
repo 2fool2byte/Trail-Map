@@ -40,7 +40,7 @@ async function classifyEndpointPath(endpointPath) {
     throw new Error("Jev returned an unrecognized endpoint classification.");
   }
 
-  return decision;
+  return (`${decision}, ${result.answers.endpoint_sensitivity?.confidence}`);
 }
 
 app.post("/classify", async (req, res) => {

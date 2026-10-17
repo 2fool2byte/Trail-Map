@@ -45,7 +45,7 @@ app.post("/login", async (req, res) => {
   try {
     const serviceResponse = await pleaseAnalyze(requestLog);
     console.log("Service response from classification service:", serviceResponse);
-    return res.status(200).json(serviceResponse);
+    //return res.status(200).json(serviceResponse);
   } catch (error) {
     console.error("Could not classify the login request:", error.message);
     return res.status(502).json({ error: "The classification service is unavailable." });
