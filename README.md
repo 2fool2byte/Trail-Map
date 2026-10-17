@@ -1,8 +1,8 @@
 # URI Hackathon Rapid-Build
 
-## System One + Jev
+## Trail Map (System One + Jev)
 
-Middleware agentic model acts as a classifier between the frontend and backend ensuring no logs goes pass suspicious or unmissed.
+Middleware agentic model acts as a classifier between the frontend and backend ensuring no logs goes pass suspicious or unmissed. 
 
 ## LAN (Wifi_LAN)
 
