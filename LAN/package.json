@@ -1,0 +1,32 @@
+{
+  "name": "wifi-lan",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Three-laptop userspace overlay for isolated guest Wi-Fi",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "relay": "tsx src/cli.ts relay",
+    "join": "tsx src/cli.ts join",
+    "demo": "tsx src/cli.ts demo",
+    "pack": "tsx src/cli.ts pack",
+    "start": "tsx src/cli.ts",
+    "test": "node --import tsx --test test/protocol.test.ts test/room.test.ts test/files.test.ts test/ip.test.ts"
+  },
+  "dependencies": {
+    "koffi": "^2.14.1",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.7.2",
+    "@types/ws": "^8.18.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true,
+    "koffi@2.16.3": true
+  }
+}

@@ -1,0 +1,47 @@
+Wifi_LAN — put this on all THREE laptops
+========================================
+
+Need: Windows 10/11 + Node.js 20 from https://nodejs.org/  (LTS)
+      Finish URI guest Wi-Fi login in a browser first.
+
+1. Unzip this folder (do not run from inside the zip).
+2. Open Command Prompt in the unzipped folder.
+
+   cd path\to\Wifi_LAN
+
+3. Once per laptop:
+
+   npm install
+
+LEAD LAPTOP (starts the switch)
+-------------------------------
+   npm run relay
+
+Copy:
+  - room code  (example WL-7K2P)
+  - a join URL teammates can reach
+    ws://127.0.0.1:7788  is THIS PC only
+    On hotspot use ws://192.168.137.1:7788  (or the IP relay prints)
+
+OTHER TWO LAPTOPS
+-----------------
+   npm run join -- --name YOURNAME --code WL-XXXX --relay ws://LEAD_IP:7788
+
+Use your own name. Wait until status shows everyone connected.
+
+TEST
+----
+   status
+   ping all
+   send START_HERE.txt all
+
+Received files land in the incoming\ folder.
+
+If join hangs: URI guest Wi-Fi blocks laptop-to-laptop.
+Lead: turn on Mobile hotspot. Others join THAT wifi.
+Relay again and use the hotspot IP.
+
+Command Prompt "ping 10.77.0.x" needs Administrator on join.
+Without Admin, wifi-lan> ping still works (ICMP over the overlay).
+
+More detail: docs\SETUP.md
